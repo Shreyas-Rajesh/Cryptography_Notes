@@ -8,7 +8,7 @@ def inverse_multiplicative_mod(a,b):
 	gcd, x1, y1 = inverse_multiplicative_mod(b,a%b)
 	x = y1
 	y = x1 - y1 * (a//b)
-	return d, x, y //bezouts co-efficients
+	return gcd, x, y #bezouts co-efficients
 	
 ```
 >[!Note] Do x%n since x can be a negative number.

@@ -1,3 +1,7 @@
+>[!info]
+>- If a and b are prime, then they are co-prime also
+>- a and b are coprime, if a is a prime and b < a (if b > a, there is a possibility a is a factor of b)
+
 ### To find the GCD (HCF). 
 GCD - take a list of divisors that gives reminder 0, out of that take the common divisors for both numbers. The hight value among the common divisors is GCD.
 
@@ -9,7 +13,7 @@ GCD - take a list of divisors that gives reminder 0, out of that take the common
 
 >[!note] GCD will be prime for 2 different prime numbers (co-prime numbers)
 
-`a = bq + r, gcd(a,b) = gcd(b,r) - if 0 <= r< b, where r = a (mod b)`
+`a = bq + r, gcd(a,b) = gcd(b,r) - if 0 <= r < b, where r = a (mod b)`
 
 Implementing GCD using euclidean algorithm:
 Consider two values A and B then the gcd(A, B) will be the value in A when the B value is zero after - 
