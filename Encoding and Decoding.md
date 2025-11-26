@@ -20,16 +20,16 @@ Valid characters:
 Implementation
 #### bytes
 1. `b" "` - to convert a string into bytes. Only ASCII valid characters should be in the string.
-2. `bytes.fromhex()` - to convert a hex value into bytes
+2. `bytes.fromhex()` - to convert a hex string into bytes
 3. `bytes()` 
 	1. `bytes(s,"what_encoding_of_s")` - convert s into bytes()
-	2. `bytes(n)` - convert "n" integer to byte value.
+	2. `bytes(n)` - create "n" number of null bytes
 	3. `bytes(l)` - converts "l" list values into bytes.
 4. `bytearray()` - A bytearray is a mutable sequence of bytes. It is a data structure designed to store a collection of 8-bit values.
 5. `encode()` - To convert a string "s" into bytes.
 	1. `(errors=_errors_)` - Choose how to handle the errors.
 		1.  `ignore` : ignores the characters that cannot be encoded
-		2. `nameplace` : replaces the character with a text explaining the character ("{LATIN SMALL LETTER A WITH RING ABOVE}")
+		2. `namreplace` : replaces the character with a text explaining the character ("{LATIN SMALL LETTER A WITH RING ABOVE}")
 		3. `strict` : Default, raises an error on failure
 		4. `replace`: replaces the character with a question mark.
 6. `long_to_bytes()` - to convert long integers into bytes
