@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fermats Little Theorem.md",
+                "file": "Certificates.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fermats Little Theorem"
+              "title": "Certificates"
             }
           }
         ]
@@ -182,6 +182,17 @@
   },
   "active": "54f55260ac97f9d1",
   "lastOpenFiles": [
+    "Resources/Certificates_RootCertificate.png",
+    "Certificates.md",
+    "Untitled.md",
+    "Fermats Little Theorem.md",
+    "Theorems/Fermats Little Theorem.md",
+    "Theorems/Extended Euclidean Algorithm.md",
+    "Theorems/Eulers - Fermats theorem.md",
+    "Theorems/Euclidean Algorithm.md",
+    "Theorems/Bézout's identity.md",
+    "Theorems",
+    "untitled folder",
     "Modular arithmetic.md",
     "Extended Euclidean Algorithm.md",
     "Euclidean Algorithm.md",
