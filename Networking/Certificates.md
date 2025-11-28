@@ -17,9 +17,10 @@ When a client connects:
 - The client checks: If the certificate is valid, is it signed by a trusted CA, do domain names match
 - The client uses the server’s public key to start the secure handshake (e.g., verify signatures or exchange keys).
 
-# Certificate Chain and Trust Anchors
+# Certificate Chain 
 A certificate chain is an ordered list of certificates, containing an SSL/TLS Certificate and Certificate Authority (CA) Certificates, that enables the receiver to verify that the sender and all CA's are trustworthy. 
 The chain or path begins with the SSL/TLS certificate, and each certificate in the chain is signed by the entity identified by the next certificate in the chain.
+A Certificate Authority (CA) is an entity that issues digital certificates and vouches for the identity of the certificate holder. It does this by using its own private keys to sign certificates. The CA operates the infrastructure that creates the certificates used in a certificate chain.
 
 #### Intermediate certificates
 - Any certificate that sits between the SSL/TLS Certificate and the Root Certificate is called a chain or Intermediate Certificate. 
@@ -31,4 +32,22 @@ The chain or path begins with the SSL/TLS certificate, and each certificate in
 #### Root certificates / Trust anchor
 The chain terminates with a Root CA Certificate. The Root CA Certificate is always signed by the CA itself. The signatures of all certificates in the chain must be verified up to the Root CA Certificate.
 
+Every CA must publish all certificates that they issue to a log, which anyone can search.
+
 ![[Certificates_RootCertificate.png]]
+
+# Trust anchor
+A trust anchor is typically the CA’s _root certificate_ that has been explicitly trusted by a device or application. It’s not the CA itself — it’s the certificate that establishes the starting point of trust for the certificate chain.
+
+
+## Analogy
+- **CA**: A passport office that issues passports.
+- **Trust Anchor**: The master list of passport offices your country trusts.
+---
+
+When you connect to a website over HTTPS, the first TLS message sent by the server is the ServerHello containing the server TLS certificate. Your browser verifies that the TLS certificate is valid, and if not, will terminate the TLS handshake. Verification includes ensuring that:  
+  
+
+- the name on the certificate matches the domain
+- the certificate has not expired
+- the certificate is ultimately signed (via a "chain of trust") by a root key of a Certificate Authority (CA) that's trusted by your browser or operating system
