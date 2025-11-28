@@ -32,7 +32,7 @@ A Certificate Authority (CA) is an entity that issues digital certificates and v
 #### Root certificates / Trust anchor
 The chain terminates with a Root CA Certificate. The Root CA Certificate is always signed by the CA itself. The signatures of all certificates in the chain must be verified up to the Root CA Certificate.
 
-Every CA must publish all certificates that they issue to a log, which anyone can search.
+Every CA must publish all certificates that they issue to a log, which anyone can search. There is a CT log maintained (go to crt.sh). Take the DER formats shaX or md5 hash to search
 
 ![[Certificates_RootCertificate.png]]
 
@@ -51,3 +51,5 @@ When you connect to a website over HTTPS, the first TLS message sent by the serv
 - the name on the certificate matches the domain
 - the certificate has not expired
 - the certificate is ultimately signed (via a "chain of trust") by a root key of a Certificate Authority (CA) that's trusted by your browser or operating system
+
+---

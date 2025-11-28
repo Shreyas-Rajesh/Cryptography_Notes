@@ -1,5 +1,3 @@
->[!Info] Resources 
->https://www.highgo.ca/2019/08/08/the-difference-in-five-modes-in-the-aes-encryption-algorithm/
 
 
 The size of an AES block is 128 bits, whereas the size of the encryption key can be 128, 192 or 256 bits.
