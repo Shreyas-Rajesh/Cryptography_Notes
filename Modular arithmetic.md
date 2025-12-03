@@ -1,4 +1,3 @@
-
 For integers a, b, n:  `a ≡ b (mod n)` means:
 
 - n | (a - b)
