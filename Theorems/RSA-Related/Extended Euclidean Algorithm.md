@@ -25,7 +25,7 @@ In `ax + by = gcd(a,b)` - only if `gcd(a,b)` = 1, ie they are relatively co-prim
 
 In to find the modular multiplicative inverse, similar to the columns in [[Euclidean Algorithm]] we use in this, but with the extensions of T1, T2 and T. Where T1 =0 and T2 = 1 in the first iteration and T = T1 -T2 * Q. Then T1 will be the modular multiplicative inverse under (mod n) when there is no more division possible. You stop similar to Euclidian algorithm, when B = 0.
 
-![[EEA_NexusAcademy.png]]
+![[EEA_NESO.png]]
 
 
 

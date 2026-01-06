@@ -1,0 +1,27 @@
+- Small public exponent attack
+- Hastad’s broadcast attack
+- Common modulus attack
+- Chinese Remainder Theorem (CRT) attack
+- Wiener’s attack
+- Boneh–Durfee attack
+- Shared prime factor (GCD) attack
+- Fermat factorization
+- Pollard’s rho attack
+- Pollard’s p−1 attack
+- Coppersmith’s small-root attack
+- Franklin–Reiter related message attack 
+- Low private exponent attack
+- No-padding (textbook RSA) attack    
+- Malleability attack
+- Bleichenbacher PKCS#1 v1.5 attack
+- Padding oracle attack
+- Timing side-channel attack
+- Power analysis attack
+- Fault (Bellcore) attack
+- Known-plaintext attack
+- Chosen-ciphertext attack
+- Partial key exposure attack
+- Reused nonce / bad RNG attack
+- CRT fault attack
+- RSA broadcast without padding
+- Common factor reuse across keys

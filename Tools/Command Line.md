@@ -1,11 +1,3 @@
->[!info] Resources referred other than DOJO
->https://superuser.com/questions/144666/what-is-the-difference-between-shell-console-and-terminal
->https://bash.cyberciti.biz/guide/Main_Page
->https://www.gnu.org/savannah-checkouts/gnu/bash/manual/bash.html
->https://pwn.college/linux-luminarium/
->https://man7.org/linux/man-pages/
-
-
 When you launch a terminal, it will execute a command line "shell" , the "prompt" is prompting you to enter a command.
 Usually the prompt is in the form of ==username@hostname:~\$== (no \ ), where host name is the environment or the machine the shell is running. The "$" denotes non-root user and "#" denotes root user (admin).
 

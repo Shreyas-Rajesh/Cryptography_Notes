@@ -1,7 +1,6 @@
 For integers a, b, n:  `a ≡ b (mod n)` means:
 
-- n | (a - b)
-- a - b is divisible by n
+- `n | (a - b)` - expand with the remainder formula to prove
 - a % n = b % n
 
 ---
@@ -24,10 +23,12 @@ If ${ a \equiv b \pmod{n} }$ and ${ c \equiv d \pmod{n} }$, then:
 Reductions
 Any number can be replaced with its remainder:
 	${ a \equiv a \bmod n \pmod{n} }$
+Here `a mod n` means the remainder that `a/n` leaves, let that be r. Also we know 
+${a = n \times q + r}$, so `a - r = n * q`. (bullet point 1)
 
 ---
 Multiplicative Inverse
-The modular inverse of a modulo n is a number a^{-1} such that:
+The modular inverse of a modulo n is a number a^-1 such that:
 	${ a a^{-1} \equiv 1 \pmod{n} }$
 
 Note : The inverse exists if ${ \gcd(a, n) = 1 }$

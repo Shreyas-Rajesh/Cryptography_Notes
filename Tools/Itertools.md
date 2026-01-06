@@ -44,7 +44,6 @@ Once we iterate through to the end of the elements, we start iterating through t
 So in a way modular arithmetic (it wraps around)
 
 
-
 ##### *Difference between ITERATOR AND ITERABLE*
 An **iterable** is an object which can be iterated over. When using the `iter()` function, an **iterator** is being generated. Generally speaking, most sequences are iterable, such as _lists_, _tuples_, _strings_, etc.
 An **iterator** is also an object, which is used to iterate over an **iterable** and an iterator can also iterate over _itself_. This is done by using the `next()` method, passing in the **iterator** that we're trying to traverse.

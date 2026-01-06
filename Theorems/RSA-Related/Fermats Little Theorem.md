@@ -9,7 +9,7 @@ For the question: 2^502 (mod 5)
 Fermat's Little Theorem states that for a prime (p) and integer (a) with ${p\nmid a}$,  
 	${  a^{p-1}\equiv 1 \pmod p. }$
 
-With (p=5) this gives (a^{4}\equiv 1\pmod 5) for any (a) not divisible by (5). In particular,  
+With (p=5) this gives ${a^{4}\equiv 1\pmod 5}$ for any (a) not divisible by (5). In particular,  
 	${ 2^{4}\equiv 1 \pmod 5.}$
 
 Now write the exponent (502) as a multiple of (4) plus a remainder:  

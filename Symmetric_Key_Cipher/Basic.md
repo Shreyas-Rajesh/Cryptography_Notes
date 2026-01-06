@@ -1,0 +1,5 @@
+We can split symmetric-key ciphers into two types, block ciphers and stream ciphers. Block ciphers break up a plaintext into fixed-length blocks, and send each block through an encryption function together with a secret key. Stream ciphers meanwhile encrypt one byte of plaintext at a time, by XORing a pseudo-random keystream with the data.
+
+# Block Cipher
+If a block cipher is secure, there should be no way for an attacker to distinguish the output from a random permutation (A random permutation is a sequence where any order of its items is equally likely at random, that is, it is a permutation-valued random variable of a set of objects).
+In cryptography, a pseudorandom permutation (PRP) is a function that cannot be distinguished from a random permutation, ie, a permutation selected at random with uniform probability, from the family of all permutations on the function's domain) with practical effort. There should be no better way to undo the permutation than simply brute-forcing every possible key

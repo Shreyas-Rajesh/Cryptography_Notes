@@ -1,6 +1,18 @@
+# Confusion and Diffusion
+*Confusion:* Make the relationship between the **key** and the **ciphertext** as complicated and non-obvious as possible.
+- Breaks linear relationships
+- Prevents simple equations like  
+    `ciphertext = plaintext ^ key`
+
+*Diffusion:* Spread the influence of one plaintext bit over many ciphertext bits.
+> [!info]
+> Confusion hides _what_ the key does
+> Diffusion hides _where_ the plaintext goes
+
+----
 A block cipher is an encryption algorithm that takes a fixed-size input (e.g., b bits) and produces a ciphertext of b bits. If the input is larger than b bits, it can be divided further. 
 
-Different Modes
+ Different Modes
 - *ECB mode: Electronic Code Book mode*
 - *CBC mode: Cipher Block Chaining mode*
 - *CFB mode: Cipher FeedBack mode*

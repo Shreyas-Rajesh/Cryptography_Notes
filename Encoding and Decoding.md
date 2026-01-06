@@ -21,7 +21,6 @@ Integers are whole numbers.
 Common things to remember: 1024 bits is 128bytes, 512 is 64bytes, 256bits is 32bytes,126bits is 16bytes
 ###### ***ASCII***
 ASCII is a 7-bit encoding that which allows the representation of text using the integers 0-127. 
-
 ###### ***UTF***
 UTF - 8: Variable-length encoding (1–4 bytes)., Backward-compatible with ASCII (0–127 same values), Most widely used encoding today.
 
